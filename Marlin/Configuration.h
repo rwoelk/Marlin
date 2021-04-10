@@ -2184,7 +2184,9 @@
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
 #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
-
+#define ST7920_DELAY_1 DELAY_NS(300) // After CLK LOW
+#define ST7920_DELAY_2 DELAY_NS(600) // After DAT
+#define ST7920_DELAY_3 DELAY_NS(300) // After CLK HIGH
 //
 // K.3D Full Graphic Smart Controller
 //
